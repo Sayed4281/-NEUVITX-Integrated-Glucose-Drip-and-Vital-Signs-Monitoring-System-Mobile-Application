@@ -1,0 +1,62 @@
+name: main_project_2024
+description: "A new Flutter project connected to Firebase."
+publish_to: 'none' # This is for private projects; remove if you plan to publish
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8  # Updated to latest version
+  fl_chart: ^0.70.2  # Kept as your specified version, latest as of now
+  flutter_cube: ^0.1.1  # Kept as is, verify if still needed
+  intl: ^0.19.0  # Updated to latest for date/time formatting
+  image_cropper: ^9.0.0  # Kept as is, latest version as of now
+  liquid_progress_indicator: ^0.4.0  # Kept as is, latest version
+  just_audio: ^0.9.40  # Updated to latest version
+  flutter_tts: ^4.0.2  # Updated to latest version
+
+
+
+  # Firebase dependencies
+  firebase_core: ^3.11.0   # Core dependency for Firebase
+  firebase_auth: ^5.4.2   # Firebase Authentication (compatible version)
+  cloud_firestore: ^5.6.3  # Downgraded Firebase Firestore version for compatibility
+  firebase_storage: ^12.4.2  # Firebase Storage for handling media
+  firebase_database: ^11.3.2  # Updated Firebase Realtime Database version
+  font_awesome_flutter: ^10.2.0
+  image_picker: ^1.1.2
+  uuid: ^3.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0  # Linter for better code practices
+
+flutter:
+  uses-material-design: true
+
+  # Asset declarations
+  assets:
+    - assets/images/bg.jpg
+    - assets/images/logo.png
+    - assets/images/login.jpg
+    - assets/images/dip.jpg
+    - assets/images/fn.jpg
+    - assets/models/glucose.obj
+    - assets/alarm.mp3
+    - assets/alarm2.mp3
+    - assets/alert.mp3
+    - assets/facebook.png
+    - assets/google.jpeg
+
+  # Fonts can be added in this section if needed:
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
+  #         weight: 700

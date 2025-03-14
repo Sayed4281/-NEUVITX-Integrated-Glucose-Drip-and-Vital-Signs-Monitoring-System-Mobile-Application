@@ -1,2 +1,16 @@
-# -NEUVITX-Integrated-Glucose-Drip-and-Vital-Signs-Monitoring-System-Mobile-Application
-Developed a mobile application that integrates glucose drip monitoring with real-time monitoring for enhanced patient care.  Provided critical data such as blood pressure, glucose levels, and other vital signs to healthcare providers.  Demonstrated a robust application framework for efficiency and reliability.
+# saysahfab
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
